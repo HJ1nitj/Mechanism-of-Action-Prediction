@@ -1,4 +1,4 @@
-![Poster](./images/moa_prediction.jpg)
+<img src='./images/moa_prediction.jpg'>
 
 The Connectivity Map, a project within the Broad Institute of MIT and Harvard, the Laboratory for Innovation Science at Harvard (LISH), and the NIH Common Funds Library of Integrated Network-Based Cellular Signatures (LINCS), organised this challenge with the goal of advancing drug development through improvements to MoA prediction algorithms.
 
@@ -17,7 +17,7 @@ The task is to use the training dataset to develop an algorithm that automatical
 #### Approach
 Implemented a unique approach (inspired by [DeepInsight](https://www.nature.com/articles/s41598-019-47765-6)) where we transform gene expressions into images through a technique of dimensionality reduction and use convex hull algorithm to develop a CNN based predictive model to identify mechanism of action of a drug.
 
-![Poster](./images/gene_sequences_images.jpg)
+<img src='./images/gene_sequences_images.jpg'>
 
 #### Result
 Achieved a log-loss score of 0.0192 on leaderboard.
