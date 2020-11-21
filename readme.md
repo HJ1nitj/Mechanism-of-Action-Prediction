@@ -15,7 +15,7 @@ In this competition, participants had access to a unique dataset that combines g
 The task is to use the training dataset to develop an algorithm that automatically labels each case in the test set as one or more MoA classes. Note that since drugs can have multiple MoA annotations, the task is formally a multi-label classification problem.
 
 #### Approach
-Implemented a unique approach (inspired by [DeepInsight](https://www.nature.com/articles/s41598-019-47765-6)) where we transform gene expressions into images through a technique of dimensionality reduction and use convex hull algorithm to develop a CNN based predictive model to identify mechanism of action of a drug.
+Implemented a unique approach (inspired by [DeepInsight](https://www.nature.com/articles/s41598-019-47765-6)) where we transformed gene expressions into images through a technique of dimensionality reduction and used convex hull algorithm to develop a CNN based predictive model to identify mechanism of action of a drug.
 
 <img src='./images/gene_sequences_images.JPG'>
 
